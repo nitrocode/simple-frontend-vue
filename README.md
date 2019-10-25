@@ -2,6 +2,8 @@
 
 Used Vue.js to display data from an API end point.
 
+![Screenshot of App](public/screenie.png "Screenshot of App")
+
 ## Project setup
 
     npm install
@@ -12,6 +14,11 @@ Used Vue.js to display data from an API end point.
     docker run -p 8080:8080 -d drianthoderyme/simple-frontend-vue
 
 Then go to https://localhost:8080
+
+## Docker dev
+
+    docker build -t drianthoderyme/simple-frontend-vue .
+    docker push drianthoderyme/simple-frontend-vue
 
 ## TODO
 
